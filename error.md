@@ -5,17 +5,17 @@
 ## 錯誤訊息：
 
 Traceback (most recent call last):
-  File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
-    self.connect()
-  File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
-    self.connection = self.get_new_connection(conn_params)
-  File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
-    return Database.connect(**conn_params)
-  File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
-    return Connection(*args, **kwargs)
-  File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
-    super(Connection, self).__init__(*args, **kwargs2)
-_mysql_exceptions.OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)")
+File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection self.connect()
+
+File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect self.connection = self.get_new_connection(conn_params)
+
+File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection return Database.connect(**conn_params)
+
+File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect return Connection(*args, **kwargs)
+  
+File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__super(Connection, self).__init__(*args, **kwargs2)
+
+## _mysql_exceptions.OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)")
 
 The above exception was the direct cause of the following exception:
 
