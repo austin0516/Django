@@ -1,4 +1,8 @@
-# ubuntu@ubuntu-VirtualBox:~/Django/firstproject$ python manage.py makemigrations
+# 建立migration資料檔
+
+## python manage.py makemigrations
+
+## 錯誤訊息：
 
 Traceback (most recent call last):
   File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
@@ -83,4 +87,4 @@ Traceback (most recent call last):
   File "/home/ubuntu/.pyenv/versions/3.6.1/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
     super(Connection, self).__init__(*args, **kwargs2)
 
-# django.db.utils.OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)")
+## django.db.utils.OperationalError: (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)")
